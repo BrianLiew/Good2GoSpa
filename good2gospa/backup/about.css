@@ -1,0 +1,69 @@
+header {
+  font: 24px/24px "Times Regular", serif;
+  margin: 10px;
+}
+.menu {
+  background-color: pink;
+  width: 100%;
+  padding-top: 2%;
+  font: bold 36px/48px "Savoye LET", serif;
+  text-align: center;
+}
+.menu a:visited, a:focus, a:active {
+  color: white;
+}
+.menu a:hover {
+  color: purple;
+}
+.menu a#home {
+  float: left;
+  width: 25%;
+}
+.menu a#about {
+  float: left;
+  width: 25%;
+}
+.menu a#fullmenu {
+  float: left;
+  width: 25%;
+}
+.main {
+  background-image: url('good2gopics/japanwave.png');
+  background-repeat: repeat;
+}
+h1 {
+  font: bold 120px "Savoye LET", serif;
+  text-align: center;
+  padding-top: 5%;
+  color: white;
+  background-color: pink;
+}
+.covid {
+  padding: 5%;
+  font: 24px/42px Helvetica, serif;
+  color: white;
+  text-align: center;
+  padding-bottom: 65%;
+  margin-bottom: 100px;
+  background-color: pink;
+}
+h2 {
+  font: bold 56px/64px Helvetica, serif;
+}
+#bed {
+  display: block;
+  float: left;
+  width: 45%;
+  border: 10px solid white;
+}
+#beddesc {
+  display: block;
+  float: right;
+  width: 45%;
+  font: 20px/42px Helvetica, serif;
+}
+footer {
+  border-top: 5px solid gray;
+  padding-top: 5px;
+  font: 16px/32px Helvetica, san-serif;
+}

@@ -1,0 +1,142 @@
+header {
+  font: 24px/24px "Times Regular", serif;
+  margin: 10px;
+}
+.menu {
+  background-color: pink;
+  width: 100%;
+  padding-top: 2%;
+  font: bold 36px/48px "Savoye LET", serif;
+  text-align: center;
+}
+.menu a:visited, a:focus, a:active {
+  color: white;
+}
+.menu a:hover {
+  color: purple;
+}
+.menu a#home {
+  float: left;
+  width: 25%;
+}
+.menu a#about {
+  float: left;
+  width: 25%;
+}
+.menu a#fullmenu {
+  float: left;
+  width: 25%;
+}
+.main {
+  background-image: url('good2gopics/japanwave.png');
+  background-repeat: repeat;
+}
+h1 {
+  font: bold 120px "Savoye LET", serif;
+  text-align: center;
+  padding-top: 5%;
+  color: white;
+  background-color: pink;
+}
+#storefront {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border: pink 20px solid;
+}
+#maps {
+  font: bold 56px "Savoye LET", serif;
+  display: block;
+  text-align: center;
+  background-color: pink;
+  padding-top: 5%;
+  padding-bottom: 2.5%;
+  margin-bottom: 10%;
+  color: white;
+  width: 100%;
+}
+#maps:visited, #maps:focus, #maps:active {
+  color: white;
+}
+#maps:hover {
+  color: purple;
+  background: hotpink;
+}
+h2 {
+  font: bold 72px "Savoye LET", serif;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  background-color: pink;
+  color: white;
+}
+.services {
+  font: bold 56px "Savoye LET", serif;
+  margin-bottom: 50%;
+}
+.services a#massage {
+  display: block;
+  float: left;
+  text-align: center;
+  padding-top: 20px;
+  width: 50%;
+  background-color: pink;
+}
+.services a#massage:visited, .services a#massage:focus, .services a#massage:active {
+  color: white;
+}
+.services a#massage:hover {
+  color: purple;
+  background-color: hotpink;
+}
+.services a#manipedi {
+  display: block;
+  float: right;
+  text-align: center;
+  padding-top: 20px;
+  width: 50%;
+  background-color: pink;
+}
+.services a#manipedi:visited, .services a#manipedi:focus, .services a#manipedi:active {
+  color: white;
+}
+.services a#manipedi:hover {
+  color: purple;
+  background-color: hotpink;
+}
+.services a#waxing {
+  display: block;
+  float: left;
+  text-align: center;
+  width: 50%;
+  padding-top: 20px;
+  background-color: pink;
+}
+.services a#waxing:visited, .services a#waxing:focus, .services a#waxing:active {
+  color: white;
+}
+.services a#waxing:hover {
+  color: purple;
+  background-color: hotpink;
+}
+.services a#facial {
+  display: block;
+  float: right;
+  text-align: center;
+  width: 50%;
+  padding-top: 20px;
+  background-color: pink;
+}
+.services a#facial:visited, .services a#facial:focus, .services a#facial:active {
+  color: white;
+}
+.services a#facial:hover {
+  color: purple;
+  background-color: hotpink;
+}
+footer {
+  border-top: 5px solid gray;
+  padding-top: 5px;
+  font: 16px/32px Helvetica, san-serif;
+}

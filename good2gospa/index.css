@@ -1,0 +1,88 @@
+header {
+  font: 24px/24px "Times Regular", serif;
+  margin: 10px;
+}
+.menu {
+  background-color: rgb(178,255,229);
+  width: 100%;
+  padding-top: 2%;
+  font: bold 36px/48px "Savoye LET", serif;
+  text-align: center;
+}
+.menu a:visited, a:focus, a:active {
+  color: black;
+}
+.menu a:hover {
+  color: white;
+}
+.menu a#home {
+  float: left;
+  width: 25%;
+}
+.menu a#about {
+  float: left;
+  width: 25%;
+}
+.menu a#fullmenu {
+  float: left;
+  width: 25%;
+}
+.main {
+  background-image: url('good2gopics/ocean.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+h1 {
+  font: bold 120px "Savoye LET", serif;
+  text-align: center;
+  padding-top: 5%;
+  color: black;
+  background-color: rgb(178,255,229);
+}
+#storefront {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border: rgb(178,255,229) 20px solid;
+}
+#maps {
+  font: bold 56px "Savoye LET", serif;
+  display: block;
+  text-align: center;
+  background-color: rgb(178,255,229);
+  padding-top: 5%;
+  padding-bottom: 2.5%;
+  margin-bottom: 10%;
+  color: black;
+  width: 100%;
+}
+#maps:visited, #maps:focus, #maps:active {
+  color: purple;
+}
+#maps:hover {
+  color: white;
+}
+h2 {
+  font: bold 72px "Savoye LET", serif;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  background-color: rgb(178,255,229);
+  color: black;
+}
+.specials {
+  font: bold 36px/48px "Savoye LET", serif;
+  display: block;
+  text-align: center;
+  background-color: rgb(178,255,229);
+  color: black;
+  width: 100%;
+  padding: 10px;
+}
+footer {
+  border-top: 5px solid gray;
+  padding-top: 5px;
+  font: 16px/32px Helvetica, san-serif;
+}
